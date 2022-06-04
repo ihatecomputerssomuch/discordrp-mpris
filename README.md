@@ -28,18 +28,10 @@ Requirements:
 
 - Python 3.6
 
-### Recommended
-
-- **Arch Linux**: [AUR](https://aur.archlinux.org/packages/discordrp-mpris-git/)
-
-```sh
-systemctl --user enable discordrp-mpris.service --now
-```
-
 ### Manual
 
 ```sh
-pip install https://github.com/FichteFoll/discordrp-mpris
+pip install https://github.com/ihatecomputerssomuch/discordrp-mpris
 
 # Usage
 discordrp-mpris
