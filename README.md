@@ -26,25 +26,33 @@ This project is in *beta* stage.
 
 Requirements:
 
-- Python 3.6
+- Python 3.6 or higher
+
+### Recommended
+
+- **Arch Linux**: [AUR](https://aur.archlinux.org/packages/discordrp-mpris-git/)
+
+```sh
+systemctl --user enable discordrp-mpris.service --now
+```
 
 ### Manual
 
 ```sh
-pip install https://github.com/ihatecomputerssomuch/discordrp-mpris
+pip install git+https://github.com/FichteFoll/discordrp-mpris.git
 
 # Usage
 discordrp-mpris
 ```
 
-You might also want to use `pip install --user`.
+You might also want to use `pip install --user` instead.
 
 ### pipenv
 
 Requires [pipenv][].
 
 ```sh
-git clone https://github.com/FichteFoll/discordrp-mpris
+git clone https://github.com/FichteFoll/discordrp-mpris.git
 cd discordrp-mpris
 pipenv install
 
